@@ -1,0 +1,416 @@
+
+body{
+font-family: Open Sans, sans-serif, Arial;
+font-size: 1.6em;
+line-height: 1.5;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: antiquewhite;
+
+}
+
+
+
+.logo{
+	height: 1.2em;
+}
+.se-nav{
+	z-index: 99;
+	
+}
+
+.weltex{
+	font-size: 1.15rem;
+}
+
+
+
+.titre {
+	font-weight: 600;
+	font-size: 2.5rem;
+	font-family: sans-serif;
+	color: rgb(255, 110, 20);
+	margin: 0.2em;
+	align-self: center;
+}
+  
+  
+  
+
+
+.trait{
+margin-left: 1.6rem;
+border-right: 1px solid rgb(255, 110, 20);
+padding-right: 1.6rem;
+display: flex;
+
+}
+#card-text {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 1.5rem;
+  background-color: #eb8b0e;
+}
+
+
+
+.ver{
+align-items: center;
+align-items: center;
+margin: 0px -0.4em 0px 1em;
+display: flex;
+
+}
+
+
+
+.menu{
+	box-shadow: 1px 6px 5px rgba(219, 217, 217, 0.56);
+}
+
+.forms{
+	  padding: 3.2rem;
+  margin: 2rem auto auto;
+  border: 1px none;
+  max-width: 20em;
+  border-radius: 0.8rem;
+  box-shadow: rgba(26, 26, 26, 0.08) 0px -1px 4px 0px, rgba(26, 26, 26, 0.12) 0px 4px 8px 0px;
+  background-color: white;
+}
+
+.inp{
+background: transparent;
+
+border-radius: 4px;
+color: rgb(26, 26, 26);
+flex: 5 1 0%;
+font-size: 0.9rem;
+height: 100%;
+min-width: 0px;
+padding: 0px 1rem;
+width: 100%;
+
+}
+
+.v-inp{
+align-items: center;
+align-items: center;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgb(202, 209, 217);
+border-radius: 0.3em;
+height: 2.5rem;
+width: 100%;
+position: relative;
+}
+
+
+
+.v-inp .password-icon .feather-eye-off{
+display: none;
+}
+
+
+
+
+.v-inp .password-icon{
+	
+	position: absolute;
+	right: 10px;	
+
+}
+
+.exo-btn{
+	padding: 12px 0px;
+	width: 100%;
+
+}
+
+.tt{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.ty{
+	font-size: 0.8rem;
+	text-align: center;
+}
+.lb{
+	font-size: 0.9rem;
+	font-weight: bold;
+	
+}
+.ls{
+	font-size: 0.8rem;
+}
+
+
+.form1.error  .v-inp  #nom{
+
+  border-color: red;
+ 
+}
+.form2.error  .v-inp  #email{
+
+	border-color: red;
+   
+  }
+
+  .form3.error  .v-inp  #num{
+
+	border-color: red;
+   
+  }
+
+  .form4.error  .v-inp  #code{
+
+	border-color: red;
+   
+  }
+
+  .form5.error  .v-inp  #codes{
+
+	border-color: red;
+   
+  }
+
+.form1.succes  .v-inp #nom{
+
+	border-color: green;
+}
+
+.form2.sucess .v-inp #email{
+
+	border-color: green;
+}
+
+.form3.sucess .v-inp #num{
+
+	border-color: green;
+}
+
+.form4.sucess .v-inp #code{
+
+	border-color: green;
+}
+.form5.sucess .v-inp #codes{
+
+	border-color: green;
+}
+
+.form1{
+	position: relative;
+	
+	}
+	.form1 small{
+	  position: absolute;
+	  left: 0;
+	  bottom: -18px;
+	
+	}
+	small	{
+		font-size: 15px;
+		visibility: hidden;
+	
+	}
+	.form1.error small{
+	
+		color: red;
+		visibility: visible;
+	}
+
+	
+.form2{
+	position: relative;
+	
+	}
+
+	.form2 small{
+		position: absolute;
+		left: 0;
+		bottom: -18px;
+	  
+	  }
+
+	  .form2.error small{
+	  
+		  color: red;
+		  visibility: visible;
+	  }
+
+	  .form3{
+		position: relative;
+		
+		}
+	
+		.form3 small{
+			position: absolute;
+			left: 0;
+			bottom: -18px;
+		  
+		  }
+	
+		  .form3.error small{
+		  
+			  color: red;
+			  visibility: visible;
+		  }
+
+		  .form4{
+			position: relative;
+			
+			}
+		
+			.form4 small{
+				position: absolute;
+				left: 0;
+				bottom: -18px;
+			  
+			  }
+		
+			  .form4.error small{
+			  
+				  color: red;
+				  visibility: visible;
+			  }
+
+			  .form5{
+				position: relative;
+				
+				}
+			
+				.form5 small{
+					position: absolute;
+					left: 0;
+					bottom: -18px;
+				  
+				  }
+			
+				  .form5.error small{
+				  
+					  color: red;
+					  visibility: visible;
+				  }
+
+
+	  .se-btn{
+	  	background-color: gray ;
+	  	color: white;
+		  
+	  }
+	  
+	  .se-nav-btn{
+	  	color: white;
+	  	font-weight: bold;
+
+	  }
+	  
+
+	  .se-nav-bouton {
+    background-color: gray;
+		}
+
+		
+
+	
+
+			.se-footer{
+				background-color: rgb(19, 18, 18);
+				color: white;
+			}
+
+			.se-acueil{
+					  padding: 3.2rem;
+					  margin: 2rem auto auto;
+					  border: 1px none;
+					  max-width: 50em;
+					  border-radius: 0.8rem;
+					  box-shadow: rgba(26, 26, 26, 0.08) 0px -1px 4px 0px, rgba(26, 26, 26, 0.12) 0px 4px 8px 0px;
+					  background-color: rgba(0, 0, 0, 0.6);
+					   
+			}
+  
+  .se-pubform{
+					  padding: 3.2rem;
+					  margin: 2rem auto auto;
+					  border: 1px none;
+					  
+					  border-radius: 0.8rem;
+					  box-shadow: rgba(26, 26, 26, 0.08) 0px -1px 4px 0px, rgba(26, 26, 26, 0.12) 0px 4px 8px 0px;
+					  background-color: rgba(255, 255, 255, 0.6);
+					   
+			}
+
+  .se-pub-inp{
+  	    background: transparent;
+    border-radius: 4px;
+    color: rgb(26, 26, 26);
+    flex: 5 1 0%;
+    font-size: 0.9rem;
+    height: 100%;
+    min-width: 0px;
+    padding: 0px 1rem;
+    width: 100%;
+  }
+  
+  .se-ty {
+    font-size: 1rem;
+    text-align: center;
+}
+
+  .se-typub {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.se-prof-inp{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	box-shadow: 4px 4px 4px rgb(0 0 0);
+	border-radius: 10px;
+}
+
+
+.se-pay-btn{
+	width: 200px;
+} 
+
+
+.se-card{
+	background-color: rgba(255, 255, 255, 0.726);
+}
+
+
+
+@media screen and (max-device-width :768px){
+
+	.se-pub-inp{
+    width: 100%;
+  }
+
+	.forms{
+	  padding: 0.8rem;
+  box-shadow: rgba(26, 26, 26, 0.08) 0px 0px 0px 0px, rgba(26, 26, 26, 0.12) 0px 0px 0px 0px;
+}
+
+
+.ver{
+display: none;
+}
+
+.trait{
+margin-left: 1.6rem;
+border-right: 0px solid rgb(255, 110, 20);
+padding-right: 1.6rem;
+display: flex;
+
+}
+
+}

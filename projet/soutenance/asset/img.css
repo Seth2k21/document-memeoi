@@ -1,0 +1,44 @@
+
+
+.input-up{
+width: 300px;
+
+}
+
+.input-up img{
+max-height: 150px ;
+max-width:250px ;
+margin-bottom: 10px;
+display: none;
+display: block;
+}
+
+.input-up input{
+   
+    display: none;
+    }
+
+ .se-up {
+    max-width: 180px;
+    margin-top: 10px;
+ }   
+
+ .se-img-box{
+   border: solid 1px grey;
+   border-radius: 5px;
+   max-width: 270px;
+   height: 150px;
+
+
+ } 
+
+ @media screen and (max-device-width :768px){
+   .se-img-box{
+   border: solid 1px grey;
+   border-radius: 5px;
+   max-width: 400px; 
+   height: 150px;
+
+
+ } 
+ }
